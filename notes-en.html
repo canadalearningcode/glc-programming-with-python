@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Girls Learning Code: Programming with Python
+
+      ##Instructor Notes
+      ##3 hours
+
+      <br>
+      #Schedule
+
+      **Introduction (30 min)**
+
+      **Code-Along (1 hour)**
+
+      **Break (15 min)**
+
+      **Main Activity (45 min)**
+
+      **Closing + DEMOS (30 min)**
+
+
+      <br>
+      #Contingency
+
+      If you know that you won't have access to the internet, you can ask learners to install the [Coding with Chrome](https://chrome.google.com/webstore/detail/coding-with-chrome/becloognjehhioodmnimnehjcibkloed) Chrome Extension, which works offline once it has been installed.
+
+      1. Install the extension
+      1. Select "Launch App"
+      1. Select "Use Advanced Moded"
+      1. Select "Go Coding"
+      1. Select "Use Python"
+      1. Create a new Python 3.x project
+      1. Work in this project instead of the Repl file (The project automatically runs on its own)
+      1. Don't forget to reame your project in the top, left-hand corner
+
+
+      <br>
+      #Specific Examples + Instructions
+      ##Code Is (slide 8)
+      Computers are not very smart, humans need to tell them exactly what to do
+
+      ##Brainstorm (slide 10)
+      Have learners brainstorm with parents/guardians or people next to them. Provide markers/paper.
+
+      ##Username Generator... What is it? (slide 14)
+      Tell learners to "think of themselves as spies" here and we are "creating codenames"
+
+      ##Example Project (slide 15)
+      In the example project, explain to learners that the code that we write is on the left side, and we see the results of our code on the right when we run it.
+      Zoom in on the left/right sides here so learners in the back of the room can see.
+      Note that seeing the results of our code on the right is helpful when we need to figure out what's going on or need to debug
+
+      *If the example project is broken or was changed by a learner, you can [use this code](solution.py) to reset it to the original state.*
+
+
+      ##What is Python? (slide 17)
+      Python is one of many programming languages available to us.
+      Ask if anyone has heard of any other programming languages. (Javascript, Ruby, Scratch...)
+      We can choose which programming language we want to use based on what we want to create. Python is popular for making games, Javascript is popular for making websites.
+
+      ##Create a New Project (slide 20)
+      Note that this is a file name, not a username - otherwise what would we need to change? (A: take out our first name). In this case, we are using our names so we can find our projects more easily if we want to sign in again later to continue coding.
+
+      ##Say Hello (slide 22)
+      Point out the brackets here. Let learners know that functions usually have brackets (). Inside these brackets we will put what we want to print out, or else Python wont understand what we want to do.
+      On the keyboard, learners can find the brackets by using [shift + 9] and [shift + 0]
+      Note that Repl with automatically give us the closing bracket in case we forget it, but if you backspace it, you will need to type it again.
+
+      Congratulate learners on having used the print function to write their very first line of Python code!
+
+      Possible Questions:
+      What is a program? It's the project or code that we are writing.
+      Run your program = run your code.
+
+      ##Math Whiz (slide 24)
+      Python can be used like a calculator. We can use the **operators** +, -, /, *
+      Point out that numbers here are not enclosed in " ". We only need these for text.
+
+      Point out where to find # on the keyboard.
+
+      ##Concatentation (slide 25)
+      Point out the space we have between Hello and World, ask what would happen if we did not account for the space here (HelloWorld)
+
+      ##Stay Sharp (Slide 27)
+      Use this slide to get learners up and moving.
+      Decide on a value for box as a group and encourage learners to 'jump box times' and 'clap box times' like a Simon Says game.
+
+      ##Create A Variable (slide 28)
+      We create the variable by typing a variable name without " ". We put something into this 'box' using the = sign.
+      Ask: Can we put a string into our variable? What about an integer? Of course!
+      Encourage learners to change the values of the variables.
+
+      ##Lists (slide 32)
+      In this case our variable 'box' can hold many things at once.
+
+      What is syntax? A: The rules of the language. For example, lists need square brackets, strings need quotations.
+
+
+      ##So Random (slide 33-34)
+      Interactive Activity: prepare a simple activity where volunteers pick random items 'out of a hat'
+
+      Ask learners 'what is a library in real life?'
+      Explain a code library is a collection of code to make things easier for coders.
+      Point out that import random should be at the top of the code.
+
+      Ask learners what they think the 'int' in randint means. Note that when we are filling in numbers here, x < y.
+
+      ##Brainstorm (slide 36)
+      Give learners some time to create the lists.
+      Give everyone a break to get up and stretch.
+
+      ##Ta-Da (slide 40)
+      Remind learners that these brackets [] are very important in Python. If we type them incorrectly it will 'break' our  program.
+      Stress that this is OKAY, because we can fix it! Each list needs its own line.
+
+      Point out that Python errors are usually very helpful. Most times an error will tell you what is wrong or point you to a line where something is wrong.
+
+      ##Random! (slide 41)
+      Now that we have our boxes, it's time to start picking random items out of them!
+
+      ##Casting (slide 44)
+      Take a moment to talk about why we are casting. Adding a string (a word) and a number doesn't make sense to Python just like it doesn't make sense to us.
+      Discuss how we can turn 5 into "5" but we can't turn something like "cat" into a number, we can only cast if it makes sense.
+
+      ##DEMOS (slide 48)
+      Provide time for learners to volunteer to share their programs up front. Alternatively, you could also open projects on each computer and have learners walk around the room to try out each other's projects Gallery Walk style.
+
+
+    </script>
+  </section>
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
